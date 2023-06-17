@@ -35,3 +35,7 @@ class User(UserBase):
 
     class Config:
         orm_mode = True
+        
+class TestModel(BaseModel):
+    a:int = 1
+    b:str = "abc"
